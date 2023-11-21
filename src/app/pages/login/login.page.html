@@ -1,0 +1,65 @@
+
+
+
+
+
+
+<ion-content class="fondo">
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/" color="light"  mode="md" text="">
+        </ion-back-button>
+      </ion-buttons>
+  
+      <ion-title >Log In</ion-title>
+  
+    </ion-toolbar>
+  </ion-header>
+
+
+
+  <ion-card >
+    <ion-card-content class="contenedor-centrado">
+
+      <ion-avatar>
+        <img alt="imagen de unapersona" src="assets/img/avatar1.png" class="imagen-centrada" />
+      </ion-avatar>    
+    </ion-card-content>
+
+    <ion-card-title class="ion-text-center">Log In</ion-card-title>
+    <ion-list>
+
+      <ion-item>
+        <ion-label><ion-icon slot="start" name="person"></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Usuario"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label><ion-icon slot="start" name="lock-closed"></ion-icon></ion-label>
+        <ion-input type="password" placeholder="Contraseña"></ion-input>
+      </ion-item>
+
+      <ion-item >
+        <ion-button  expand="block" fill="clear"  class="subrayado" slot="end"  routerLink="/forgot-pass"
+        color="light">
+          Recuperar contraseña
+        </ion-button>
+      </ion-item>
+                                                                                                                            
+      <ion-button  expand="block" fill="solid" shape="round"  size="large" class="ion-text-capitalize" 
+      routerLink="/home">
+          Ingresar
+      </ion-button>
+    </ion-list>
+
+    <ion-button  expand="block" fill="clear" shape="round"  routerLink="/register" >
+      crear cuenta
+    </ion-button>
+
+  </ion-card>
+</ion-content>
+
+
+

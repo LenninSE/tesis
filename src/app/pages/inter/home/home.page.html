@@ -1,0 +1,99 @@
+<ion-header [translucent]="true" class="fondo">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+      color="light"  mode="md" text=""
+      ><ion-icon  name="chevron-back-circle"></ion-icon></ion-back-button>
+    </ion-buttons>
+    <!-- <ion-button slot="start" expand="block" fill="clear" shape="round">
+      <ion-icon  name="chevron-back-circle"></ion-icon>
+    </ion-button> -->
+
+    <ion-title color="light">RIoT Agro</ion-title>
+    <ion-button slot="end"  expand="block" fill="clear" shape="round">
+      <ion-icon name="ellipsis-horizontal" color="light"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+<ion-content [fullscreen]="true" class="fondo">
+
+
+
+
+
+  <ion-img src="assets/img/tomato-plant.jpg"></ion-img>
+
+
+  <ion-grid  class="ion-padding">
+
+    <ion-row >
+
+      <ion-col size="6">
+
+        <ion-card class="mi-card" color="light">
+          <ion-row>
+            <ion-col size="8">
+              <img src="assets/iconos/termometro.png" alt="">
+            </ion-col>
+            <ion-col size="4">
+              <!-- Tu texto va aquí -->
+              <h1>45</h1>
+              <br><h1>°C</h1>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-col size="6">
+        <ion-card class="mi-card" color="light">
+          <ion-row>
+            <ion-col size="8">
+              <img src="assets/iconos/hum-suelo.png" alt="">
+            </ion-col>
+            <ion-col size="4">
+              <!-- Tu texto va aquí -->
+              <h1>45 C</h1>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-col size="6">
+        <ion-card class="mi-card" color="light">
+          <ion-row>
+            <ion-col size="8">
+              <img src="assets/iconos/sol-lumi.png" alt="">
+            </ion-col>
+            <ion-col size="4">
+              <!-- Tu texto va aquí -->
+              <h1>45 C</h1>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-col size="6">
+        <ion-card class="mi-card" color="light">
+          <ion-row>
+            <ion-col size="8">
+              <img src="assets/iconos/hum-relativa.png" alt="">
+            </ion-col>
+            <ion-col size="4">
+              <!-- Tu texto va aquí -->
+              <h1>45 C</h1>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

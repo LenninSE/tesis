@@ -1,0 +1,54 @@
+// ion-grid {
+//     --ion-grid-padding: 20px;
+  
+//     --ion-grid-padding-xs: 20px;
+//     --ion-grid-padding-sm: 20px;
+//     --ion-grid-padding-md: 20px;
+//     --ion-grid-padding-lg: 20px;
+//     --ion-grid-padding-xl: 20px;
+  
+//     --ion-grid-column-padding: 30px;
+  
+//     --ion-grid-column-padding-xs: 30px;
+//     --ion-grid-column-padding-sm: 30px;
+//     --ion-grid-column-padding-md: 30px;
+//     --ion-grid-column-padding-lg: 30px;
+//     --ion-grid-column-padding-xl: 30px;
+//   }
+  
+//   ion-col {
+//     // background-color: #135d54;
+//     // border: solid 1px #fff;
+//     // color: #fff;
+//     text-align: center;
+//   }
+
+ion-card img {
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    height: auto; /* Esto garantiza que la altura se ajuste proporcionalmente al ancho */
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor si es necesario */
+    float: left;
+  }
+
+.mi-card {
+    width: 100%; /* Establece el ancho del card */
+    height: 90%; /* Establece la altura del card */
+    //////////////////////color blanco temporal////////////
+    background-color:#ffffff ;
+  }
+
+ion-grid {
+    margin-left: -20px; /* Ajusta el margen del ion-grid según sea necesario */
+  }
+
+  .fondo {
+    --ion-background-color: rgb(27,94,32);
+    --ion-background-color: linear-gradient(0deg, rgba(27,94,32,1) 0%, rgba(67,160,71,1) 100%);
+}  
+//cards personalizados
+.custom-card{
+
+  background-color:#ffffff ;
+}
